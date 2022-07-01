@@ -1,0 +1,103 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+h1 {
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    margin-top: 5px;
+}
+
+h2 {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    font-size: 0.875rem;
+}
+
+.card {
+    margin: 100px auto 70px auto;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+
+.left-container {
+    flex: 1;
+}
+
+.preview {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.right-container {
+    flex: 1;
+    background-color: white;
+}
+
+.category {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: normal;
+    letter-spacing: 0.25rem;
+    margin: 30px 0px 0px 25px;
+}
+
+.right-content {
+    padding: 10px 30px;
+}
+
+.price {
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.actual-price {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: 2.3rem;
+}
+
+.original-price {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+}
+
+.add-to-cart-wrapper {
+    margin: 10px auto;
+    text-align: center;
+}
+
+button {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background-color: hsl(158, 36%, 37%);
+    width: 100%;
+    padding: 15px 0px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+button:hover {
+    background-color: hsl(158, 36%, 20%);
+    cursor: pointer;
+}
+
+.cart-image {
+    margin-right: 10px;
+    vertical-align: middle;
+}
