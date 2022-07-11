@@ -1,24 +1,9 @@
 body {
     background-color: hsl(30, 38%, 92%);
-}
-
-h1 {
-    color: hsl(212, 21%, 14%);
-    font-family: 'Fraunces', serif;
-    margin-top: 5px;
-}
-
-h2 {
-    color: hsl(228, 12%, 48%);
     font-family: 'Montserrat', sans-serif;
 }
 
-p {
-    color: hsl(228, 12%, 48%);
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.7;
-    font-size: 0.875rem;
-}
+/* Card */
 
 .card {
     margin: 100px auto 70px auto;
@@ -27,24 +12,24 @@ p {
     flex-direction: row;
     overflow: hidden;
     border-radius: 15px;
+    background-color: #ffffff;
 }
 
-
-.left-container {
+.card-container {
     flex: 1;
 }
+
+/* Product Preview */
 
 .preview {
     max-width: 100%;
     vertical-align: middle;
 }
 
-.right-container {
-    flex: 1;
-    background-color: white;
-}
+/* Product Info */
 
 .category {
+    color: hsl(228, 12%, 48%);
     text-transform: uppercase;
     font-size: 0.9rem;
     font-weight: normal;
@@ -52,8 +37,20 @@ p {
     margin: 30px 0px 0px 25px;
 }
 
-.right-content {
+.product-info {
     padding: 10px 30px;
+}
+
+.product-name {
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    margin-top: 5px;
+}
+
+.product-desc {
+    color: hsl(228, 12%, 48%);
+    line-height: 1.7;
+    font-size: 0.875rem;
 }
 
 .price {
@@ -71,18 +68,18 @@ p {
 
 .original-price {
     color: hsl(228, 12%, 48%);
-    font-family: 'Montserrat', sans-serif;
     font-size: 0.9rem;
 }
+
+/* Add to cart button */
 
 .add-to-cart-wrapper {
     margin: 10px auto;
     text-align: center;
 }
 
-button {
+.add-to-cart {
     color: white;
-    font-family: 'Montserrat', sans-serif;
     font-size: 0.9rem;
     font-weight: bold;
     background-color: hsl(158, 36%, 37%);
@@ -92,7 +89,7 @@ button {
     border-style: none;
 }
 
-button:hover {
+.add-to-cart:hover {
     background-color: hsl(158, 36%, 20%);
     cursor: pointer;
 }
@@ -100,4 +97,15 @@ button:hover {
 .cart-image {
     margin-right: 10px;
     vertical-align: middle;
+}
+
+/* Attribution  */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
