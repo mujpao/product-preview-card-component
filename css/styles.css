@@ -6,13 +6,20 @@ body {
 /* Card */
 
 .card {
-    margin: 100px auto 70px auto;
-    width: 50%;
+    margin: 5% auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     overflow: hidden;
     border-radius: 15px;
     background-color: #ffffff;
+    max-width: 24rem;
+}
+
+@media (min-width: 700px) {
+    .card {
+        flex-direction: row;
+        max-width: 39.44rem;
+    }
 }
 
 .card-container {

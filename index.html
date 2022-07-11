@@ -24,9 +24,12 @@
 
   <div class="card">
     <div class="card-container">
-      <img class="preview" src="images/image-product-desktop.jpg" alt="chanel-perfume">
+      <picture>
+        <source srcset="images/image-product-desktop.jpg" media="(min-width: 700px)">
+        <img class="preview" src="images/image-product-mobile.jpg" alt="chanel-perfume">
+      </picture>
     </div>
-    <div class="card-container"">
+    <div class="card-container">
       <h2 class="category">Perfume</h2>
 
       <div class="product-info">
