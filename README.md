@@ -54,7 +54,7 @@ To make the left and right side of the card have equal width and height on deskt
 I used a media query to change the width of the card and change `flex-direction` to `row` on desktop.
 Also, I used the `<picture>` element so that different image sizes could be used depending on the width of the screen.
 
-One thing I struggled initially was that there was a blank space between the bottom of the image and its containing div. I set `vertical-align: middle;` on the image to fix this problem.
+One thing I struggled with initially was that there was a blank space between the bottom of the image and its containing div. I set `vertical-align: middle;` on the image to fix this problem.
 
 ### Continued development
 
