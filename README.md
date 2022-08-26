@@ -15,8 +15,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -38,8 +36,8 @@ Mobile:
 
 ### Links
 
-- Solution URL: [github repo](https://github.com/mujpao/product-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub repo](https://github.com/mujpao/product-preview-card-component)
+- Live Site URL: [GitHub Pages](https://mujpao.github.io/product-preview-card-component/)
 
 ## My process
 
