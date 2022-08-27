@@ -28,11 +28,12 @@ Users should be able to:
 
 Desktop:
 
-![](./solution-images/solution-desktop.png)
+![desktop solution](./solution-images/solution-desktop.png)
 
 Mobile:
 
-![](./solution-images/solution-mobile.png)
+
+<img src="./solution-images/solution-mobile.png" alt="mobile solution" width="500">
 
 ### Links
 
