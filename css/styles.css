@@ -1,6 +1,9 @@
-body {
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
     background-color: hsl(30, 38%, 92%);
     font-family: 'Montserrat', sans-serif;
     display: flex;
@@ -58,7 +61,8 @@ body {
 .product-name {
     color: hsl(212, 21%, 14%);
     font-family: 'Fraunces', serif;
-    margin-top: 5px;
+    margin: 5px 0 22px;
+    font-size: 2.0rem;
 }
 
 .product-desc {
