@@ -16,7 +16,7 @@ body {
 /* Card */
 
 .card {
-    margin: 40px 0;
+    margin: 40px 15px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
