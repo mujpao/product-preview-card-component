@@ -45,17 +45,17 @@ body {
 
 /* Product Info */
 
+.product-info {
+    padding: 30px;
+}
+
 .category {
     color: hsl(228, 12%, 48%);
     text-transform: uppercase;
     font-size: 0.9rem;
     font-weight: normal;
     letter-spacing: 0.25rem;
-    margin: 30px 0px 0px 25px;
-}
-
-.product-info {
-    padding: 10px 30px;
+    margin-bottom: 15px;
 }
 
 .product-name {
@@ -92,7 +92,7 @@ body {
 /* Add to cart button */
 
 .add-to-cart-wrapper {
-    margin: 10px auto;
+    margin: 10px auto 0;
     text-align: center;
 }
 
